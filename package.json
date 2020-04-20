@@ -1,0 +1,38 @@
+{
+  "name": "zipcode-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zipcode.js",
+  "scripts": {
+    "test": "test",
+    "start": "node zipcode.js"
+  },
+  "author": "Gorkem Aygun",
+  "keywords": [
+    "moment",
+    "date",
+    "time",
+    "timezone",
+    "zone",
+    "tz"
+  ],
+  "jspm": {
+    "main": "builds/moment-timezone-with-data",
+    "shim": {
+      "moment-timezone": {
+        "deps": [
+          "moment"
+        ]
+      }
+    }
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/moment-timezone": "^0.5.13",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "promise": "^8.1.0",
+    "request-promise": "^4.2.5",
+    "require": "^2.4.20"
+  }
+}

@@ -1,0 +1,79 @@
+.function{
+	align-items: center;
+	text-align: center;
+	justify-content:center;
+	display:block;
+	padding: 5%;
+}
+#header{
+	margin-top: 5%;
+	text-align: center;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	border: 2px solid white;
+	border-radius: 15px;
+	color: white;
+	
+}
+.display{
+	opacity: 0.75;
+	width: 60%;
+	margin-left: 20%;
+}
+.city,.time,.forecast,.degree{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	color:black;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	justify-content: center;
+	text-shadow: 5px 5px 5px grey;
+}
+p{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 5%;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	
+	background-image: url(https://cdn.sandals.com/sandals/v12/images/general/about/about-page/beach.jpg);
+	background-size: cover;
+	
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.scale-up-hor-center {
+	-webkit-animation: scale-up-hor-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+@keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0.4);
+            transform: scaleX(0.4);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+.charlotte{
+	background-image: url('https://static-11.sinclairstoryline.com/resources/media/0fa57314-83f5-419b-a0b5-fb3397263ade-large16x9_Charlotte.jpg?1586525520747');
+	background-repeat: no-repeat;
+	background-size: cover;
+}

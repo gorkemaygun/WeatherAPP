@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Your City</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="zipcode.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+</head>
+<body>	
+	<div class="container">
+		<div class="row">
+			<div class="col">
+			<h2 id="header" class="scale-up-hor-center ">Welcome to Weather App</h2>
+			<div class="function ">
+				<input type="text" name="zip" class="zip_code">
+				<button class="search">Search</button>
+				<p>Note:If you want to see forcast situation for another city, you need to type country code.(ex. 17100,tr)</p>
+			
+			</div>
+
+				<div class="display card"> 
+					<div class="city"></div>
+					<div class="time"></div>
+					<div class="forecast" ></div>
+					<div class="degree"></div>
+				</div>	
+
+			</div>
+		</div>
+
+	</div>
+			
+			
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://momentjs.com/downloads/moment.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.28/moment-timezone-with-data.min.js"></script>
+<script src="zipcode.js"></script>
+</body>
+</html>
